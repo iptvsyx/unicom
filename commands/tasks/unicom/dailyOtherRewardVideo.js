@@ -1,7 +1,7 @@
 var dailyOtherRewardVideo = {
     // see https://m.jf.10010.com/jf-yuech/p/freeLoginGuess
     cleanRewardVideo: async (axios, options) => {
-        // clean 4积分 30次
+        // clean 4积分 10次
         await require('./rewardVideo').doTask(axios, {
             ...options,
             acid: 'AC20200611152252',
@@ -10,7 +10,7 @@ var dailyOtherRewardVideo = {
             reward_name: '签到小游戏得积分'
         })
 
-        // clean 6积分 30次
+        // clean 6积分 5次
         await require('./rewardVideo').doTask(axios, {
             ...options,
             acid: 'AC20200611152252',
