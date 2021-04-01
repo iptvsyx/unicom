@@ -1,7 +1,7 @@
 {
   "name": "auto-sign-machine",
   "version": "1.0.0",
-  "lockfileVersion": 1,
+  "lockfileVersion": 3,
   "requires": true,
   "dependencies": {
     "@protobufjs/aspromise": {
